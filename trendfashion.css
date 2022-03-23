@@ -1,0 +1,126 @@
+body {
+    background-color:#F9E79F;
+    padding: 20px;
+
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+p {
+    background-color:black;
+    color: whitesmoke;
+}
+
+.topnav {
+    background-color: #F9E79F; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: rgb(17, 14, 11);
+    color: #CECFD2; 
+  
+}
+
+h2 {
+  background-color: rgb(17, 14, 11);
+    color: #CECFD2;   
+   margin-top: 70px;
+    text-align: center;
+    text-shadow: cornsilk;
+}
+
+#giris {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:flex-end;
+    margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+
+.colorpicker {
+    
+    display: flex;
+    margin-top: 50px;
+    background-color: #F9E79F;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#favcolor {
+    display: flex;
+    margin-left: 9px;
+}
+.favorite {
+    color:rgb(17, 14, 11);
+}
+
+
+.open-button {
+    background-color: #E5679B;
+    color: plum;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 24px;
+    right: 28px;
+    width: 280px;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid pink;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #FF69B4;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #9F2B68;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #C9A9A6;
+    color: purple;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: black;
+}
+
+.form-container .btn:hover, open.button:hover {
+    opacity: 1;
+}
