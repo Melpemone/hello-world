@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="trendfashion.css">
+    <title>Kiya fashion</title>
+</head>
+<body>
+<div class="topnav">
+  <a href="https://www.vogue.com/fashion-shows" id="home">Home</a>
+  <a href="https://www.vogue.com/fashion-shows/fall-2022-ready-to-wear/chanel/slideshow/collection#1" id="collect">New Collection</a>
+  <a href="https://www.whowhatwear.co.uk/fashion-trend-forecast-2021" id="trends">Trends</a>
+  <a href="https://www.vogue.com/contact">Contact</a>
+</div>
+<header>
+  <h1>FASHION WORLD AND MORE</h1>
+</header>
+<p>FWAM is the global authority on change, using expert trend forecasting combined with data science to help you get ahead of the right trends.
+
+  We do this through consumer insight, product design direction and trading strategies so you can create sustainably and land the right trends at the right time to maximise sales</p>
+
+   <h2 onclick="myFunc()">JOIN US!</h2>
+   <form id="giris">
+     <table>
+       <tr>
+         <td>Email Address:
+           </td>
+           <td><input type="email" id="emal"name="">
+           </td>
+       </tr>
+       <tr>
+         <td>Password:
+         </td>
+         <td><input type="password" id="passwr" name="">
+         </td>
+       </tr> 
+     </table>
+     <button type="submit" onclick="myForm()" id="newc">Sign Up</button>
+      
+   </form>
+   <div class="colorpicker">
+   <label for="favcolor" class="favorite">Select your favorite color:</label><br>
+   <input type="color" id="favcolor" name="favcolor" value="">
+   </div>
+   <h3 onmouseover="myColor()">Touch Here!</h3>
+   <button onclick="darkMode()">Toggle dark mode</button>
+
+   <button class="open-button" onclick="openForm()">Chat</button>
+   <div class="chat-popup" id="myChat">
+     <form action="/action_page.php" class="form-container">
+       <h1>Chat</h1>
+
+       <label for="msg">Message</label>
+       <textarea placeholder="Type something..." name="msg" required></textarea>
+
+       <button type="submit" class="btn">Send</button>
+       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+     </form>
+   </div>
+    <script src="trendfashion.js"></script>
+</body>
+</html>
