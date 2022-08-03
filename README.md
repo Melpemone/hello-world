@@ -1,2 +1,2 @@
 # FirstProjectForgit
-my first repository
+FirstRepoForgit
